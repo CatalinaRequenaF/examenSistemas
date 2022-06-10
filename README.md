@@ -36,11 +36,11 @@ Para comprobar que todo está bien, introducimos `docker-compose ps`
 ![image](https://user-images.githubusercontent.com/91744454/173115539-fcdb440e-ecae-4369-8647-6e41460b1253.png)
 
 
-A continuación tenemos que subir la imagen de nuestro proyecto, ejecutando `login docker build` 
+A continuación tenemos que subir la imagen de nuestro proyecto, ejecutando `login docker` 
 ![image](https://user-images.githubusercontent.com/91744454/173116467-909e7623-59d4-48b9-9293-62060702aeb4.png)
 
 
-Como paso final, haremos un `docker push`
+Como paso final, haremos un `docker build`y posteriormente un `docker push`
 
 El resultado se verá así  
 ![image](https://user-images.githubusercontent.com/91744454/173117077-77aa87dc-4389-4e97-972e-31743019083f.png)
