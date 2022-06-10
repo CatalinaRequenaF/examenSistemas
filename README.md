@@ -45,5 +45,3 @@ Como paso final, haremos un `docker build`y posteriormente un `docker push`
 El resultado se verá así  
 ![image](https://user-images.githubusercontent.com/91744454/173117077-77aa87dc-4389-4e97-972e-31743019083f.png)
 
-
-## 6- Annexos 
