@@ -6,10 +6,10 @@ Para configurar el archivo docker-compose tenemos que instanciar los volúmenes 
 Primero creamos un servicio (volumen) mysql e indicamos el nombre de la imagen en la que desplegaremos la app. 
 En este caso, es `mariadb`.
 
-![image](https://user-images.githubusercontent.com/91744454/173106838-b489468f-ee30-4f74-b3a9-9bbb68a6130c.png)
+![image](https://user-images.githubusercontent.com/91744454/173106838-b489468f-ee30-4f74-b3a9-9bbb68a6130c.png)  
 
-Ahora creamos otro volumen para el nginx:  
-![image](https://user-images.githubusercontent.com/91744454/173107123-366b19a7-a242-4049-8d59-7cddbd29afae.png)
+Ahora creamos otro volumen para el nginx, en nuestro caso `alpine`:  
+![image](https://user-images.githubusercontent.com/91744454/173107123-366b19a7-a242-4049-8d59-7cddbd29afae.png)  
 
 Por último, creamos un último volumen para nuestro servidor. Al ser Java, emplearemos `tomcat`.
 ![image](https://user-images.githubusercontent.com/91744454/173107370-1329ac21-edcd-4bc1-8b63-177037f11960.png)
@@ -18,7 +18,7 @@ Por último, creamos un último volumen para nuestro servidor. Al ser Java, empl
 ## 3- Creación del Dockerfile
 ![image](https://user-images.githubusercontent.com/91744454/173111311-6442d137-0539-441d-a888-1a928b7dd399.png)
 
-Tomcat requiere de más archivos que son de tipo xml para poder arrancarlos.  
+Deberemos de utilizar archivos xml para que tomcat pueda ejecutarlos:   
 ![image](https://user-images.githubusercontent.com/91744454/173110399-3ea88d90-3d15-486a-b698-6b609aa3639c.png)  
 ![image](https://user-images.githubusercontent.com/91744454/173110417-a5fc040f-6fac-46a9-873a-51526de61f55.png)  
 
